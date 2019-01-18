@@ -1,27 +1,43 @@
-# RsoTest
+# NOLS_EXAMPLE_PROJECT
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.4.
+## Getting Started
 
-## Development server
+#### 1. Clone & Download this project.
+#### 2. Install NOLS
+```
+npm install nols -g
+```
+#### 3. Install project dependencies
+```
+npm install
+```
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+#### Start the project
+```
+npm run start
+```
+When that is finished, navigate to [http://localhost:4200/](http://localhost:4200/)
 
-## Code scaffolding
+Open up your Dev Tools, and select the iPhone X device, if available.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Running NOLS
 
-## Build
+In a separate terminal window, cd into your project directory. 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+#### Start NOLS
 
-## Running unit tests
+```
+nols
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Select the **Default** from the list of modes.
 
-## Running end-to-end tests
+NOLS will ask you if the default entry folder is ok to use, just hit enter.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+You will be asked two more questions. Input `812px` for the **viewport height** and `375px` for the **viewport 
+width**.
 
-## Further help
+Confirm that the configuration is correct, and let NOLS do it's thing. Navigate back to your browser, and select 
+different devices to test the design on.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+You should see that the design shows up the same on any of the mobile devices you choose from. 
