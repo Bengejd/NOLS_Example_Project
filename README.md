@@ -30,14 +30,14 @@ In a separate terminal window, cd into your project directory.
 nols
 ```
 
-Select the **Default** from the list of modes.
+Select **Default** from the list of modes.
 
 NOLS will ask you if the default entry folder is ok to use, just hit enter.
 
 You will be asked two more questions. Input `812px` for the **viewport height** and `375px` for the **viewport 
 width**.
 
-Confirm that the configuration is correct, and let NOLS do it's thing. Navigate back to your browser, and select 
-different devices to test the design on.
+Confirm that the configuration is correct, and let NOLS do it's thing. After NOLS finishes, navigate back to your 
+browser, and try out different devices.
 
 You should see that the design shows up the same on any of the mobile devices you choose from. 
