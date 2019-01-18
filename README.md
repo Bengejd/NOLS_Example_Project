@@ -12,7 +12,7 @@ npm install nols -g
 npm install
 ```
 
-#### Start the project
+#### 4. Start the project
 ```
 npm run start
 ```
@@ -22,7 +22,7 @@ Open up your Dev Tools, and select the iPhone X device, if available.
 
 ## Running NOLS
 
-In a separate terminal window, cd into your project directory. 
+In a separate terminal window, cd into the project directory. 
 
 #### Start NOLS
 
